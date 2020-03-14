@@ -33,10 +33,12 @@ public class Main {
             ageAll+=emp.getAge();
             salaryAll +=emp.getSalary();
             System.out.println(emp.getLastName() + " " + emp.getPosition() + " " + emp.getSalary() + " " + emp.getAge() + "  " + emp.getId());
+            System.out.println(emp.toString());
         }
 
         System.out.println("Средний возраст =" + ageAll/arrEmp.length);
         System.out.println("Средняя зп = " + salaryAll/arrEmp.length);
+
 
     }
 }
