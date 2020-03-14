@@ -36,6 +36,10 @@ public class Employee {
         }
     }
 
+    public String toString(){
+        return "LastName: " + this.lastName + "; Salary: " + this.salary + "; Age: " + this.age + "; Position: " + this.position;
+    }
+
     Employee(String lastName, int salary, int age, String position){
         this.lastName = lastName;
         this.salary = salary;
